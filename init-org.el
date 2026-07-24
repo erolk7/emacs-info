@@ -199,8 +199,8 @@
   :bind (("C-c a" . aidermacs-transient-menu))
   :config
   ; Set API_KEY in .bashrc, that will automatically picked up by aider or in elisp
-  (setenv "GEMINI_API_KEY" "AIzaSyDuE522bR-cC2PtGCx5CHHOmYDWvmCRD-A")
-  (setenv "GOOGLE_API_KEY" "AIzaSyDuE522bR-cC2PtGCx5CHHOmYDWvmCRD-A")
+  (setenv "GEMINI_API_KEY" "")
+  (setenv "GOOGLE_API_KEY" "")
   :custom
   ; See the Configuration section below
   (aidermacs-default-model "gemini/gemini-2.5-flash")
